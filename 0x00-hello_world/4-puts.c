@@ -1,4 +1,4 @@
-C#include<stdio.h>
+#include<stdio.h>
 /**
  * main - function description
  * Description: used to print
