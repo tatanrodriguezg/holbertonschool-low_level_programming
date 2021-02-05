@@ -6,19 +6,18 @@
  */
 int main(void)
 {
-	int x;
-	char ch, sp;
+	int x, y, z;
 
 	x = 0;
-	ch = ' ';
-	sp = ',';
+	y = -16;
+	z = -4;
 
 	while (x < 9)
 	{
 		putchar('0' + x);
 		x++;
-		putchar(sp);
-		putchar(ch);
+		putchar('0' + z);
+		putchar('0' + y);
 	}
 	putchar('0' + x);
 	return (0);
