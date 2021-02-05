@@ -16,6 +16,8 @@ int main(void)
 	while (x <= 9)
 	{
 		putchar('0' + x);
+		if (x == 9)
+			break;
 		x++;
 		putchar('0' + z);
 		putchar('0' + y);
